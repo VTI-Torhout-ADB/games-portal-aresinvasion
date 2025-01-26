@@ -1,0 +1,112 @@
+body {
+  background: repeat 0 0;
+  font: 12px/19px Arial, Helvetica, sans-serif;
+  color: #0eacda;
+  position: relative;
+  background: #212121;
+  min-width: 1000px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+nav {
+  background-color: #333; /* Dark gray background */
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+/* Navigation links */
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  margin-right: 20px;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #0eacda; /* Light green */
+}
+
+a {
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main {
+  width: 980px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  display: block;
+  width: 234px;
+  height: 39px;
+  text-indent: -5000px;
+  background: url(../images/logo.png) 0 0 no-repeat;
+}
+
+.column-image-game {
+  width: 500px;
+}
+
+.game-info {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: #0eacda;
+  color: white;
+  padding: 2rem;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-about {
+  color: white;
+}
+
+.main-about a {
+  color: cyan;
+}
